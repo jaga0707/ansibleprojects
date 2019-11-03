@@ -1,1 +1,7 @@
-
+---
+- hosts:dockerhost
+  tasks:
+  - name: pull image from dockwer hub
+    docker_image:
+     name:nexus
+     
